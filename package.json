@@ -16,6 +16,7 @@
     "react-dom": "^16.14.0",
     "react-google-font-loader": "^1.1.0",
     "react-responsive": "^8.1.0",
+    "react-router-dom": "^5.2.0",
     "react-router-transition": "^2.0.0",
     "react-scripts": "3.4.3"
   },
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "styled-components": "^5.2.0"
   }
 }
