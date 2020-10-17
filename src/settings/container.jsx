@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Container = styled.section`
+const Container = styled.div`
 width: 1180px;
 `
 export default Container
