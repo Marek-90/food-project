@@ -1,11 +1,15 @@
 import React from 'react';
 import Logo from './Logo/logo';
+import LogoStyle from './Logo/logoStyle';
+import Container from '../../settings/container';
 
 const Header = () => {
     return (
-        <>
-        <Logo/>
-        </>
+        <LogoStyle>
+            <Container>
+            <Logo/>
+          </Container>
+        </LogoStyle>
     )
 }
 
