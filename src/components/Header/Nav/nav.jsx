@@ -3,11 +3,11 @@ import { Link } from 'react-scroll';
 import NavStyle from './navStyle';
 import LiStyle from './liStyle'
 
-const Nav = () => {
+const Nav = ({isScroll}) => {
     return (
         <>
         <NavStyle id="nav">
-            <LiStyle>
+            <LiStyle isScroll={isScroll}>
                 <Link 
                 to="nav" 
                 smooth={true} 
@@ -15,21 +15,21 @@ const Nav = () => {
                     ZAPLANUJ POSIŁKI
                 </Link>
             </LiStyle>
-            <LiStyle>
+            <LiStyle isScroll={isScroll}>
                 <Link to="nav" 
                 smooth={true} 
                 duration={2000}>
                     DLACZEGO WARTO?
                 </Link>
             </LiStyle>
-            <LiStyle>
+            <LiStyle isScroll={isScroll}>
                 <Link to="about" 
                 smooth={true} 
                 duration={2000}>
                     O MNIE
                 </Link>
             </LiStyle>
-            <LiStyle>
+            <LiStyle isScroll={isScroll}>
                 <Link to="contact" 
                 smooth={true} 
                 duration={2000}>
