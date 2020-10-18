@@ -11,9 +11,9 @@ const App = () => {
     return (
         <>
             <Header/>
-            
-            {/* {isMobile ? mobileView : desktopView} */}
             <LandingPageMain/>
+            {/* {isMobile ? mobileView : desktopView} */}
+            
             
         </>
     )
