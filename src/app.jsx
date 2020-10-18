@@ -1,5 +1,6 @@
 import React from 'react'
 // import { useMediaQuery } from 'react-responsive'
+import LandingPageMain from "./components/landingPage/landingPageMain";
 import Header from './components/Header/header';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
     return (
         <>
             <Header/>
+            <LandingPageMain/>
             {/* {isMobile ? mobileView : desktopView} */}
         </>
     )
