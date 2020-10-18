@@ -6,6 +6,7 @@ const HeaderStyled = styled.header`
     /* transition: all 0.4s ease-in-out; */
     display: flex;
     justify-content: center;
+    align-items: center;
 `
 
 export default HeaderStyled;
