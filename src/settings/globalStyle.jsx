@@ -40,6 +40,9 @@ table {
 *{
   box-sizing: border-box;
 }
+:root {
+  --animate-delay: .5s;
+}
 `
 
 const GlobalStyle = ({children}) => {
