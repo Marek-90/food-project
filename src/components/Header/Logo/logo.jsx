@@ -5,7 +5,7 @@ import LogoStyle2 from './logoStyle2';
 const Logo = () => {
     return (
         <LogoStyle>
-            <p>Logo<LogoStyle2>Strony</LogoStyle2></p>
+            <h1>Logo<LogoStyle2>Strony</LogoStyle2></h1>
         </LogoStyle>
     )
 }

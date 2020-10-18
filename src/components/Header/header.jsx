@@ -1,15 +1,20 @@
 import React from 'react';
 import Logo from './Logo/logo';
-import HeaderStyled from './headerStyle'
+import HeaderStyle from './headerStyle';
 import Container from '../../settings/container';
+import Position from './Position/position';
+import Nav from '../Header/Nav/nav';
 
 const Header = () => {
     return (
-        <HeaderStyled>
+        <HeaderStyle>
             <Container>
-                <Logo/>
+                <Position>
+                    <Logo/>
+                    <Nav/>
+                </Position>
             </Container>
-        </HeaderStyled>
+        </HeaderStyle>
     )
 }
 
