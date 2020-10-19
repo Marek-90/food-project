@@ -1,8 +1,12 @@
 import React from 'react';
+import ImgStyle from './imgStyle';
+import icon3 from '../../../../Assets/zupa.png';
 
 const ElementThree = () => {
     return (
-        <div>Foto 3</div>
+        <div>
+            <ImgStyle src={icon3} alt=""/>
+        </div>
     )
 }
 

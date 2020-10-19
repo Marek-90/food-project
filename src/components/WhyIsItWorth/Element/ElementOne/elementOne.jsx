@@ -1,9 +1,11 @@
 import React from 'react';
+import ImgStyle from './imgStyle';
+import icon1 from '../../../../Assets/symbol-3296658_1280.png'
 
 const ElementOne = () => {
     return (
         <div>
-            Foto 
+            <ImgStyle src={icon1} alt=""/>
         </div>
     )
 }

@@ -1,8 +1,13 @@
 import React from 'react';
+import ImgStyled from './imgStyle';
+import icon2 from '../../../../Assets/vans.png';
+
 
 const ElementTwo = () => {
     return (
-        <div>Foto 2</div>
+        <div>
+            <ImgStyled src={icon2} alt="vans"/>
+        </div>
     )
 }
 
