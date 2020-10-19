@@ -2,6 +2,7 @@ import React from 'react'
 // import { useMediaQuery } from 'react-responsive'
 import LandingPageMain from "./components/landingPage/landingPageMain";
 import Header from './components/Header/header';
+import WhyIsItWorth  from './components/WhyIsItWorth/whyIsItWorth ';
 
 const App = () => {
 
@@ -12,6 +13,7 @@ const App = () => {
         <>
             <Header/>
             <LandingPageMain/>
+            <WhyIsItWorth/>
             {/* {isMobile ? mobileView : desktopView} */}
             
             
