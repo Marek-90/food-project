@@ -1,13 +1,14 @@
 import React from 'react';
+import TwoStyle from './twoStyle';
 import ImgStyled from './imgStyle';
 import icon2 from '../../../../Assets/vans.png';
 
 
 const ElementTwo = () => {
     return (
-        <div>
+        <TwoStyle>
             <ImgStyled src={icon2} alt="vans"/>
-        </div>
+        </TwoStyle>
     )
 }
 
