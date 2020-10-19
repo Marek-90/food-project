@@ -16,7 +16,7 @@ const Nav = ({isScroll}) => {
                 </Link>
             </LiStyle>
             <LiStyle isScroll={isScroll}>
-                <Link to="nav" 
+                <Link to="why" 
                 smooth={true} 
                 duration={2000}>
                     DLACZEGO WARTO?
@@ -26,7 +26,7 @@ const Nav = ({isScroll}) => {
                 <Link to="about" 
                 smooth={true} 
                 duration={2000}>
-                    O MNIE
+                    O NAS
                 </Link>
             </LiStyle>
             <LiStyle isScroll={isScroll}>

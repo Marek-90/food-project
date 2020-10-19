@@ -5,7 +5,7 @@ import Title from './Title/title';
 
 const WhyIsItWorth = () => {
     return (
-        <WhyIsItWorthStyled>
+        <WhyIsItWorthStyled id='why'>
             <Container>
                 <Title/>
             </Container>
