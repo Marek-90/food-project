@@ -4,7 +4,7 @@ import TitleStyle from './titleStyle';
 const Title = () => {
     return (
         <>
-            <TitleStyle>Dlacze go Warto ?</TitleStyle>
+            <TitleStyle>Dlaczego Warto?</TitleStyle>
         </>
         
     )
