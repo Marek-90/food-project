@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const HeaderStyle = styled.header`
          width:100%;
          height: 15vh;
-         background-color: ${({isScroll}) => isScroll ? 'white' : 'transparent'} ;
+         background-color: ${({isScroll}) => isScroll ? 'rgba(255, 255, 255, 0.9)' : 'transparent'} ;
          display: flex;
          justify-content: center;
          align-items: center;
