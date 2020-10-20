@@ -8,7 +8,7 @@ const ElementText = () => {
         <TextStyle>
             <TitleStyle>Lorem Ipsum</TitleStyle>
             <DescriptionStyle>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </DescriptionStyle>
         </TextStyle>
     )
