@@ -16,11 +16,13 @@
     "react-coverflow": "^0.2.20",
     "react-dom": "^16.14.0",
     "react-google-font-loader": "^1.1.0",
+    "react-image-gallery": "^1.0.8",
     "react-responsive": "^8.1.0",
     "react-router-dom": "^5.2.0",
     "react-router-transition": "^2.0.0",
-    "react-scripts": "3.4.3",
-    "react-scroll": "^1.8.1"
+    "react-scripts": "^3.4.4",
+    "react-scroll": "^1.8.1",
+    "react-styled-carousel": "^0.5.1"
   },
   "scripts": {
     "start": "react-scripts start",

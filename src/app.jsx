@@ -3,6 +3,7 @@ import React from 'react'
 import LandingPageMain from "./components/landingPage/landingPageMain";
 import Header from './components/Header/header';
 import WhyIsItWorth  from './components/WhyIsItWorth/whyIsItWorth ';
+import OurMenu from './components/OurFeaturedMenu/ourMenu';
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
             <Header/>
             <LandingPageMain/>
             <WhyIsItWorth/>
+            <OurMenu/>
             {/* {isMobile ? mobileView : desktopView} */}
             
             
