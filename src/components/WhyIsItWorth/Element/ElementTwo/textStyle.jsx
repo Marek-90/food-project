@@ -6,7 +6,7 @@ flex-direction: column;
 text-align: center;
 font-family: "Montserrat";
 font-size:16px;
-font-size:1.25vw;
+font-size:1.1vw;
 `
 
 export default TextStyle;
